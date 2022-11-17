@@ -2,20 +2,20 @@
 function App() {
   return (
     <div className="App">
-      <div className="max-w-sm mx-auto p-8 bg-white rounded-xl shadow-md space-y-2">
-        <img
-          className="h-24 mx-auto rounded-full ring-4 ring-green-400"
-          src="/images/logo.png"
-          alt="Learn with Sumit logo"
-        />
-        <div className="text-center space-y-2">
-          <div className="space-y-0.5">
-            <p className="text-lg text-black font-semibold">Learn with Sumit</p>
-            <p className="text-gray-500 font-medium">YouTube Channel</p>
+      <div className="h-screen bg-gray-200 flex items-center justify-center drop-shadow-xl space-y-2">
+        <div className="w-60 p-6 md:w-80 md:p-2 md:flex md:items-center bg-white rounded-xl space-y-2">
+          <img
+            className="w-28 h-28 rounded-full ring-4 ring-purple-300 mx-auto drop-shadow-xl"
+            src="https://img.freepik.com/premium-photo/desktop-source-code-wallpaper-by-computer-language-with-coding-programming_33771-598.jpg?w=740"
+            alt="Learn with Sumit logo"
+          />
+          <div className="flex flex-col items-center md:items-start justify-center space-y-2 ">
+            <p className="font-black-700 font-bold space-y-2">Tailwind CSS code test</p>
+            <p className="text-gray-500 font-medium space-y-2">For practiceing</p>
+            <button className="border rounded-xl px-2 text-purple-500 space-y-0.5 hover:text-gray-700 hover:transition-transform">
+              view more..
+            </button>
           </div>
-          <button className="px-4 py-1 border border-purple-200 rounded-full text-sm text-purple-600 font-semibold">
-            Visit now
-          </button>
         </div>
       </div>
 
