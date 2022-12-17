@@ -13,8 +13,11 @@ function App() {
           <div className="flex flex-col items-center md:items-start justify-center space-y-2 ">
             <p className="font-black-700 font-bold space-y-2">Tailwind CSS code test</p>
             <p className="text-gray-500 dark:text-yellow-700 font-medium space-y-2">For practiceing</p>
-            <button className="border rounded-xl px-2 text-purple-500 dark:text-orange-500 space-y-0.5 dark:hover:bg-orange-300 hover:bg-purple-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+            <button className="btn btn-purple">
               view more..
+            </button>
+            <button className="btn btn-green">
+              website
             </button>
           </div>
         </div>
