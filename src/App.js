@@ -11,12 +11,12 @@ function App() {
             alt="Learn with Sumit logo"
           />
           <div className="flex flex-col items-center md:items-start justify-center space-y-2 ">
-            <p className="font-black-700 font-bold space-y-2">Tailwind CSS code test</p>
+            <h1 className="font-black-700 font-bold space-y-2">Tailwind CSS code test</h1>
             <p className="text-gray-500 dark:text-yellow-700 font-medium space-y-2">For practiceing</p>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple hover:text-gray-400">
               view more..
             </button>
-            <button className="btn btn-green">
+            <button className="btn btn-green hover:text-gray-400">
               website
             </button>
           </div>

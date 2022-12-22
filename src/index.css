@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* group btn */
+@layer components {
+    /* group btn */
 .btn {
     @apply border rounded-xl px-2 
     dark:text-orange-500 space-y-0.5 
@@ -24,4 +25,11 @@
     hover:bg-green-500;
 
     @apply p-5
+}
+}
+
+@layer base {
+     h1 {
+        @apply text-xl
+    }
 }
