@@ -33,3 +33,9 @@
         @apply text-xl
     }
 }
+
+@layer utilities {
+    .myWish{
+        @apply text-orange-500
+    }
+}

@@ -11,7 +11,7 @@ function App() {
             alt="Learn with Sumit logo"
           />
           <div className="flex flex-col items-center md:items-start justify-center space-y-2 ">
-            <h1 className="font-black-700 font-bold space-y-2">Tailwind CSS code test</h1>
+            <h1 className="myWish font-black-700 font-bold space-y-2">Tailwind CSS code test</h1>
             <p className="text-gray-500 dark:text-yellow-700 font-medium space-y-2">For practiceing</p>
             <button className="btn btn-purple hover:text-gray-400">
               view more..
