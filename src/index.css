@@ -39,3 +39,9 @@
         @apply text-orange-500
     }
 }
+@variants hover {
+    .myWishs {
+        @apply text-orange-400
+    }
+}
+
