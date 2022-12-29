@@ -39,9 +39,9 @@
         @apply text-orange-500
     }
 }
-@variants hover {
+/* @variants hover {
     .myWishs {
         @apply text-orange-400
     }
-}
+} */
 
