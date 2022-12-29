@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+ @layer components {
     /* group btn */
 .btn {
     @apply border rounded-xl px-2 
@@ -39,9 +39,9 @@
         @apply text-orange-500
     }
 }
-/* @variants hover {
+ @variants hover {
     .myWishs {
         @apply text-orange-400
     }
-} */
+} 
 
